@@ -1,0 +1,72 @@
+.contat-us
+    background: url("../img/bg-3.jpg")
+    background-position: center
+    background-size: cover
+    padding: 100px 50px
+    text-align: center
+
+.contact-us-title
+    color: #fff
+    font-size: 45px
+    font-weight: 200
+    text-shadow: 2px 2px #000
+
+.contact-us-text
+    color: #fff
+    text-shadow: 1px 1px #000
+    max-width: 100%
+    margin: 30px auto
+
+.contact-us-form
+    display: flex
+    justify-content: center
+    max-width: 100%
+    div
+        margin: 10px
+    input
+        border: none
+        padding: 0.7rem
+        border-radius: 5px
+        background: #ffffffab
+        width: 250px
+    textarea
+        border: none
+        padding: 0.7rem
+        border-radius: 5px
+        background: #ffffffab
+        max-width: 100%
+    .form-userData
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+    .form-message
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        button
+            margin: 10px
+            border: none
+            color: #333
+            cursor: pointer
+        button:hover
+            background: lightgrey
+
+@media only screen and (max-width: 970px)
+    .contact-us-form
+        flex-wrap: wrap
+        .form-userData
+            input
+                margin: 10px
+                width: 480px
+        textarea
+            width: 500px
+
+@media only screen and (max-width: 600px)
+    .contact-us-form
+        flex-wrap: wrap
+        .form-userData
+            input
+                margin: 10px
+                width: 280px
+        textarea
+            width: 300px

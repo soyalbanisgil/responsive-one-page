@@ -1,0 +1,49 @@
+.navbar
+    background: #383E4C
+    min-height: 50px
+    padding: 5px
+    position: fixed
+    right: 0
+    left: 0
+    z-index: 1030
+
+.main-menu
+    list-style: none
+    display: flex
+    justify-content: center
+    padding-inline-start: 0
+
+.main-menu-link
+    color: #fff
+    text-decoration: none
+    font-size: 20px
+    border: 1px solid #646d7c
+    padding: 10px 25px
+    margin: 0 10px
+
+.main-menu-link:hover
+    background: #49505F
+
+.responsive-nav-bar
+    color: #fff
+    font-size: 2rem
+    padding: 10px
+    float: right
+    cursor: pointer
+    display: none
+
+#resNavBar
+    display: none
+
+@media only screen and (max-width: 800px)
+    .main-menu
+        display: none
+
+    .mobile-menu
+        display: grid
+        grid-gap: 3rem
+        text-align: center
+        padding: 6rem
+    
+    #resNavBar
+        display: block
